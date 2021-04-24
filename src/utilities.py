@@ -12,6 +12,7 @@ import datetime
 import pandas as pd
 import yfinance as yf
 import fbprophet as prophet
+from sklearn.metrics import mean_absolute_error
 
 
 class Dataset:
